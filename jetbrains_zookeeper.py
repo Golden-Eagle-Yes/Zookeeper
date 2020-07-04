@@ -122,8 +122,8 @@ It seems there will be more rabbits soon!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
-habitat = input("Which habitat # do you need?")
+habitat = input("Which habitat # do you need? ")
 while habitat != "exit":
 	print(animals[int(habitat)])
-	habitat = input("Which habitat # do you need?")
+	habitat = input("Which habitat # do you need? ")
 print("See you!")
